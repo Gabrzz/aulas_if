@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 4</title>
+    <style>
+        footer{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--Imagine uma aplicação que requer um formulário para a submissão de um
+artigo em um evento científico. Os campos deve formulário são:
+    a. Nome, email e telefone (não podem estar em branco).
+    b. Endereço (contendo rua, estado e CEP)
+    c. Data de nascimento
+    d. Area do artigo
+    e. Curso do estudante
+    f. Arquivo a ser enviado
+    g. Botão de resetar, botão de enviar dados.-->
+
+    <form action="post">
+
+        <h1>Formulário</h1>
+        <h3>Para envio do artigo</h3>
+        
+        <label for="">Nome:</label>
+        <br>
+        <br>
+        <br>
+        <input type="text">
+        <br>
+        <br>
+        <label for="">Email:</label>
+        <br>
+        <input type="email" placeholder="exempl@exemplo.com">
+        <br>
+        <br>
+        <label for="">Telefone:</label>
+        <br>
+        <input type="tel" placeholder="(34)9 9999 9999">
+        <br>
+        <br>
+        <label for="">Endereço</label>
+        <br>
+        <br>
+        <label for="">Rua:</label>
+        <input type="text" placeholder="Rua José Gonçaves Ribeiro">
+        <label for="">CEP:</label>
+        <input type="text" placeholder="00000-000">
+        <label for="">Estado</label>
+        <select placeholder="selecione">
+            <option value=""></option>
+            <option value="">Acre (AC)</option>
+            <option value="">Alagoas (AL)</option>
+            <option value="">Amapá (AP)</option>
+            <option value="">Amazonas (AM)</option>
+            <option value="">Bahia (BA)</option>
+            <option value="">Ceará (CE)</option>
+            <option value="">Distrito Federal (DF)</option>
+            <option value="">Espírito Santo (ES)</option>
+            <option value="">Goiás (GO)</option>
+            <option value="">Maranhão (MA)</option>
+            <option value="">Mato Grosso (MT)</option>
+            <option value="">Mato Grosso do Sul (MS)</option>
+            <option value="">Minas Gerais (MG)</option>
+            <option value="">Pará (PA)</option>
+            <option value="">Paraíba (PB)</option>
+            <option value="">Paraná (PR)</option>
+            <option value="">Pernambuco (PE)</option>
+            <option value="">Piauí (PI)</option>
+            <option value="">Rio de Janeiro (RJ</option>
+            <option value="">Rio Grande do Norte (RN)</option>
+            <option value="">Rio Grande do Sul (RS)</option>
+            <option value="">Rondônia (RO)</option>
+            <option value="">Roraima (RR)</option>
+            <option value="">Santa Catarina (SC)</option>
+            <option value="">São Paulo (SP)</option>
+            <option value="">Sergipe (SE)</option>
+            <option value="">Tocantins (TO)</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Data de nascimento</label>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <label for="">Área do artigo</label>
+        <br>
+        <select>
+            <option value=""></option>
+            <option value="">Exatas</option>
+            <option value="">Humanas</option>
+            <option value="">Científicas</option>
+            <option value="">Biológicas</option>
+            <option value="">Sociais</option>
+            <option value="">Agrárias</option>
+            <option value="">Literatura e Artes</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Curso do estudante</label>
+        <br>
+        <input type="text" placeholder="Ex: Engenharia Mecatrônica">
+        <br>
+        <br>
+        <label for="ar">Anexe o arquivo</label>
+        <br>
+        <input type="file">
+        <br>
+        <br>
+        <br>
+        <br>
+        <button>Enviar dados</button>
+        <br>
+        <br>
+        <button>Resetar Dados</button>
+        <br>
+        <br>
+        <br>
+        <br>
+    </form>
+
+    <footer>
+        <h1>Rodapé legal</h1>
+    </footer>
+
+</body>
+</html>
