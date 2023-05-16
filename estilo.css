@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap');
+
+:root{
+    --corFundo: #C6E0FF;
+    --corPrincipal: #2978A0;
+    --corSecundaria: #315659;
+    --corTerciaria: #253031;
+}
+
+body{
+    background-color: var(--corFundo);
+    font-family: 'Montserrat', sans-serif; 
+}
+
+header{
+    background-color: var(--corPrincipal);
+    text-align: center;
+    height: 200px;
+    padding: auto;
+    margin-bottom: 100px;
+    color:white;
+}
+
+footer{
+    background-color: var(--corTerciaria);
+    padding: 30px;
+    color: white;
+    text-align: center  ;
+    margin-top: 100px;
+}
+
+footer p{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.titulo-h{
+    padding: 80px;
+    font-size: 40px;
+}
+
+.cont{
+    margin: center;
+}
+
+.cont-filme{
+    border: 2px solid var(--corSecundaria);
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    background-color: white;
+    width: 48%;
+    display: inline-block;
+    border-radius: 15px;
+    height: 300px;
+}
+
+.left{
+    margin-right: 6px;
+    margin-left: 5px;
+}
+
+.right{
+    margin-left: 6px;
+    margin-right: 5px;
+}
+
+.img{
+    
+}
